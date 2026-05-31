@@ -1,0 +1,44 @@
+{
+    "BUFFTHESPIRE-AEONGLASS_SECTION.title": "Boss: Aeonglass",
+    "BUFFTHESPIRE-AEONGLASS_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-AEONGLASS_MAX_HP_EASY.title": "Max HP",
+    "BUFFTHESPIRE-AEONGLASS_MAX_HP_HARD.title": "Max HP (A8+)",
+
+    "BUFFTHESPIRE-QUEEN_SECTION.title": "Boss: Queen",
+    "BUFFTHESPIRE-QUEEN_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-QUEEN_CARDS_AFFLICTED.title": "Bound cards per turn",
+    "BUFFTHESPIRE-QUEEN_BURNS_ADD.title": "Burns on beam attack",
+    "BUFFTHESPIRE-QUEEN_BURNS_ADD_COUNT.title": "Burns on beam attack amount",
+    "BUFFTHESPIRE-QUEEN_MORE_BEAMS.title": "Frequent beam attacks",
+
+    "BUFFTHESPIRE-KAISER_CRAB_SECTION.title": "Boss: Kaiser Crab",
+    "BUFFTHESPIRE-KAISER_CRAB_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-KAISER_CRAB_SEARING_BLOW.title": "Enable Searing Blow power on Rocket",
+    "BUFFTHESPIRE-KAISER_CRAB_SEARING_BLOW_QTY.title": "Searing Blow amount",
+    "BUFFTHESPIRE-KAISER_CRAB_SUCKER_PUNCH.title": "Enable Sucker Punch power on Crusher",
+    "BUFFTHESPIRE-KAISER_CRAB_SUCKER_PUNCH_QTY.title": "Sucker Punch amount",
+
+    "BUFFTHESPIRE-THE_INSATIABLE_SECTION.title": "Boss: The Insatiable",
+    "BUFFTHESPIRE-THE_INSATIABLE_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-THE_INSATIABLE_QUICKSAND.title": "Enable Quicksand power on The Insatiable",
+    "BUFFTHESPIRE-THE_INSATIABLE_QUICKSAND_DAMAGE.title": "Damage per distance from the Sandpit",
+
+    "BUFFTHESPIRE-SOUL_NEXUS_SECTION.title": "Elite: Soul Nexus",
+    "BUFFTHESPIRE-SOUL_NEXUS_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-SOUL_NEXUS_HITS.title": "Hits per turn until Intangible",
+
+    "BUFFTHESPIRE-SCROLL_SECTION.title": "Enemy: Scroll Of Biting",
+    "BUFFTHESPIRE-SCROLL_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-SCROLL_MAX_HP_REDUCTION.title": "Max HP reduction on hit",
+    "BUFFTHESPIRE-SCROLL_MIN_MAX_HP_EASY.title": "Minimum max HP",
+    "BUFFTHESPIRE-SCROLL_MAX_MAX_HP_EASY.title": "Maximum max HP",
+    "BUFFTHESPIRE-SCROLL_MIN_MAX_HP_HARD.title": "Minimum max HP (A8+)",
+    "BUFFTHESPIRE-SCROLL_MAX_MAX_HP_HARD.title": "Maximum max HP (A8+)",
+
+    "BUFFTHESPIRE-GLOBEHEAD_SECTION.title": "Enemy: Globehead",
+    "BUFFTHESPIRE-GLOBEHEAD_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-GLOBEHEAD_POWER_DAMAGE.title": "Damage on power use",
+
+    "BUFFTHESPIRE-LOST_FORGOTTEN_SECTION.title": "Enemy: The Lost and The Forgotten",
+    "BUFFTHESPIRE-LOST_FORGOTTEN_ENABLED.title": "Enable changes"
+}
