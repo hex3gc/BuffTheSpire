@@ -5,22 +5,13 @@ namespace BuffTheSpire.Config
     [HoverTipsByDefault]
     internal class BuffTheSpireConfig : SimpleModConfig
     {
-        // BOSSES - ACT 3
-        [ConfigSection("AeonglassSection")]
-            public static bool AeonglassEnabled { get; set; } = true;
-            [ConfigSlider(400, 800, 1, Format = "{0} HP")]
-            public static int AeonglassMaxHpEasy { get; set; } = 582;
-            [ConfigSlider(400, 800, 1, Format = "{0} HP")]
-            public static int AeonglassMaxHpHard { get; set; } = 628;
-
-        [ConfigSection("QueenSection")]
-            public static bool QueenEnabled { get; set; } = true;
-            [ConfigSlider(1, 10, 1)]
-            public static int QueenCardsAfflicted { get; set; } = 3;
-            public static bool QueenBurnsAdd { get; set; } = true;
-            [ConfigSlider(1, 3, 1)]
-            public static int QueenBurnsAddCount { get; set; } = 1;
-            public static bool QueenMoreBeams { get; set; } = true;
+        // BOSSES - ACT 1
+        [ConfigSection("LagavulinSection")]
+            public static bool LagavulinEnabled { get; set; } = true;
+            public static bool LagavulinDebuffOften { get; set; } = true;
+        [ConfigSection("TheKinSection")]
+            public static bool TheKinEnabled { get; set; } = true;
+            public static bool TheKinBuffLeader { get; set; } = true;
 
         // BOSSES - ACT 2
         [ConfigSection("KaiserCrabSection")]
@@ -35,8 +26,28 @@ namespace BuffTheSpire.Config
         [ConfigSection("TheInsatiableSection")]
             public static bool TheInsatiableEnabled { get; set; } = true;
             public static bool TheInsatiableQuicksand { get; set; } = true;
+            public static bool TheInsatiableQuicksandBuff { get; set; } = true;
             [ConfigSlider(1, 10, 1)]
             public static int TheInsatiableQuicksandDamage { get; set; } = 2;
+
+        // BOSSES - ACT 3
+        /*
+        [ConfigSection("AeonglassSection")]
+            public static bool AeonglassEnabled { get; set; } = true;
+            [ConfigSlider(400, 800, 1, Format = "{0} HP")]
+            public static int AeonglassMaxHpEasy { get; set; } = 582;
+            [ConfigSlider(400, 800, 1, Format = "{0} HP")]
+            public static int AeonglassMaxHpHard { get; set; } = 612;
+        */
+
+        [ConfigSection("QueenSection")]
+            public static bool QueenEnabled { get; set; } = true;
+            [ConfigSlider(1, 10, 1)]
+            public static int QueenCardsAfflicted { get; set; } = 3;
+            public static bool QueenBurnsAdd { get; set; } = true;
+            [ConfigSlider(1, 3, 1)]
+            public static int QueenBurnsAddCount { get; set; } = 1;
+            public static bool QueenMoreBeams { get; set; } = true;
 
         // ELITES - ACT 3
         [ConfigSection("SoulNexusSection")]

@@ -33,8 +33,8 @@ using Godot;
 namespace BuffTheSpire.Patches;
 
 /// <summary>
-///     Sneak Attack adds a dangerous consequence to getting your direction wrong, and it also makes Rocket more of a threat
-///     Since Rocket attacks second, it will benefit most from Sneak Attack
+///     The claws now have different ways of messing with your deck, but can be counteracted by passive or active damage.
+///     Makes Crusher's block more important.
 /// </summary>
 internal static class KaiserCrabPatch
 {

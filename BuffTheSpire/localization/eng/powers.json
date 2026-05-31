@@ -12,6 +12,6 @@
     "BUFFTHESPIRE-SUCKER_PUNCH_POWER.smartDescription": "On dealing unblocked attack damage, Adds [blue]{Amount}[/blue] [gold]Dazed[/gold] to your draw pile. Reduced by 1 this turn whenever this enemy takes damage.",
 
     "BUFFTHESPIRE-QUICKSAND_POWER.title": "Quicksand",
-    "BUFFTHESPIRE-QUICKSAND_POWER.description": "For every turn's distance you are from [gold]The Insatiable[/gold], take 2 damage at the end of your turn.",
-    "BUFFTHESPIRE-QUICKSAND_POWER.smartDescription": "For every turn's distance you are from [gold]The Insatiable[/gold], take 2 damage at the end of your turn."
+    "BUFFTHESPIRE-QUICKSAND_POWER.description": "For every stack of [gold]Sandpit[/gold] The Insatiable has, take 2 damage at the end of your turn.",
+    "BUFFTHESPIRE-QUICKSAND_POWER.smartDescription": "For every stack of [gold]Sandpit[/gold] The Insatiable has, take {Amount} damage at the end of your turn."
 }

@@ -9,28 +9,39 @@ using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.ValueProps;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
-using BuffTheSpire.Config;
-using MegaCrit.Sts2.Core.Models.Cards;
-using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Models.Monsters;
 
 namespace BuffTheSpire.Powers
 {
     public sealed class QuicksandPower : CustomPowerModel
     {
-        private class Data
-        {
-            public int counter = BuffTheSpireConfig.KaiserCrabSearingBlowQty;
-        }
-        public override string? CustomPackedIconPath => "res://BuffTheSpire/images/powers/searingBlow.png";
-        public override string? CustomBigIconPath => "res://BuffTheSpire/images/powers/searingBlow.png";
-        public override string? CustomBigBetaIconPath => "res://BuffTheSpire/images/powers/searingBlow.png";
+        public override string? CustomPackedIconPath => "res://BuffTheSpire/images/powers/quicksand.png";
+        public override string? CustomBigIconPath => "res://BuffTheSpire/images/powers/quicksand.png";
+        public override string? CustomBigBetaIconPath => "res://BuffTheSpire/images/powers/quicksand.png";
         public override PowerType Type => PowerType.Buff;
         public override PowerStackType StackType => PowerStackType.Counter;
-        public override int DisplayAmount => GetInternalData<Data>().counter;
-        protected override IEnumerable<DynamicVar> CanonicalVars => new List<DynamicVar>() { new DynamicVar("counter", BuffTheSpireConfig.KaiserCrabSearingBlowQty) };
-        protected override object InitInternalData()
+        public override async Task AfterSideTurnEndLate(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
         {
-            return new Data();
+            int sandpitStacks = 0;
+            foreach (Creature creature in this.CombatState.Enemies)
+            {
+                if (creature.Side == CombatSide.Enemy && creature.HasPower<SandpitPower>())
+                {
+                    foreach (PowerModel power in creature.Powers)
+                    {
+                        if (power is SandpitPower && power.Target == base.Owner)
+                        {
+                            sandpitStacks += power.Amount;
+                        }
+                    }
+                }
+            }
+
+            if (participants.Contains(base.Owner) && sandpitStacks > 0)
+            {
+                await CreatureCmd.Damage(choiceContext, base.Owner, base.Amount * sandpitStacks, ValueProp.Unpowered, base.Owner, null);
+                VfxCmd.PlayOnCreatureCenter(base.Owner, "vfx/vfx_attack_blunt");
+            }
         }
     }
 }

@@ -29,11 +29,9 @@ using BuffTheSpire.Config;
 
 namespace BuffTheSpire.Patches;
 
-/// <summary>
-///     Slightly buffs Aeonglass's max HP
-/// </summary>
 internal static class AeonglassPatch
 {
+    /*
     // HP change
     [HarmonyPatch]
     internal static class AeonglassPatch_Aeonglass_MinInitialHp
@@ -47,4 +45,5 @@ internal static class AeonglassPatch
             return false;
         }
     }
+    */
 }
