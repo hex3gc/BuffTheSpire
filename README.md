@@ -24,7 +24,6 @@
 | | <p align="center">**ACT 3 - ELITES**</p> |
 | **Soul Nexus** | <ul><li>Soul Nexus now spawns with **Ephemeral** *(After taking damage 5 times during your turn, gains 1 Intangible.)*</li><ul> |
 | | <p align="center">**ACT 3 - BOSSES**</p> |
-| **Aeonglass** | <ul><li>HP increased *(512(535) => 582(612))*</li><ul> |
 | **Queen** | <ul><li>When using its multi-attack, Torchhead Amalgam now shuffles 1 Burn into your draw pile.</li><li>After its initial moves, Torchhead Amalgam now uses its multi-attack every other turn.</li><ul> |
 
 ### Changelog
