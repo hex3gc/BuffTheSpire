@@ -7,6 +7,11 @@
     "BUFFTHESPIRE-LAGAVULIN_ENABLED.title": "Enable changes",
     "BUFFTHESPIRE-LAGAVULIN_DEBUFF_OFTEN.title": "Debuff more often",
 
+    "BUFFTHESPIRE-ENTOMANCER_SECTION.title": "Act 2 Elite: Entomancer",
+    "BUFFTHESPIRE-ENTOMANCER_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-ENTOMANCER_HP_EASY.title": "Max HP",
+    "BUFFTHESPIRE-ENTOMANCER_HP_HARD.title": "MAx HP (A8+)",
+
     "BUFFTHESPIRE-KAISER_CRAB_SECTION.title": "Act 2 Boss: Kaiser Crab",
     "BUFFTHESPIRE-KAISER_CRAB_ENABLED.title": "Enable changes",
     "BUFFTHESPIRE-KAISER_CRAB_SEARING_BLOW.title": "Enable Searing Blow power on Rocket",
@@ -39,6 +44,11 @@
 
     "BUFFTHESPIRE-LOST_FORGOTTEN_SECTION.title": "Enemy: The Lost and The Forgotten",
     "BUFFTHESPIRE-LOST_FORGOTTEN_ENABLED.title": "Enable changes",
+
+    "BUFFTHESPIRE-TURRET_OPERATOR_SECTION.title": "Act 3 Enemy: Turret Operator and Living Shield",
+    "BUFFTHESPIRE-TURRET_OPERATOR_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-TURRET_OPERATOR_MECHANIC_AMOUNT.title": "Living shield healing per turn",
+    "BUFFTHESPIRE-TURRET_OPERATOR_ADDITIONAL_STRENGTH_GAIN.title": "Additional strength gain",
 
     "BUFFTHESPIRE-SOUL_NEXUS_SECTION.title": "Act 3 Elite: Soul Nexus",
     "BUFFTHESPIRE-SOUL_NEXUS_ENABLED.title": "Enable changes",

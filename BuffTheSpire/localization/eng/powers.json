@@ -17,5 +17,9 @@
 
     "BUFFTHESPIRE-ADAPTIVE_POWER.title": "Adaptive",
     "BUFFTHESPIRE-ADAPTIVE_POWER.description": "When an attack is played against this enemy, it gains 1 [gold]Vigor[/gold] and 2 [blue]Block[/blue] for each stack of Adaptive.",
-    "BUFFTHESPIRE-ADAPTIVE_POWER.smartDescription": "When an attack is played against this enemy, it gains 1 [gold]Vigor[/gold] and 2 [blue]Block[/blue] for each stack of Adaptive."
+    "BUFFTHESPIRE-ADAPTIVE_POWER.smartDescription": "When an attack is played against this enemy, it gains 1 [gold]Vigor[/gold] and 2 [blue]Block[/blue] for each stack of Adaptive.",
+
+    "BUFFTHESPIRE-MECHANIC_POWER.title": "Mechanic",
+    "BUFFTHESPIRE-MECHANIC_POWER.description": "At the end of its turn, [gold]Turret Operator[/gold] heals its [gold]Living Shield[/gold] for [blue]20 HP[/blue].",
+    "BUFFTHESPIRE-MECHANIC_POWER.smartDescription": "At the end of its turn, [gold]Turret Operator[/gold] heals its [gold]Living Shield[/gold] for [blue]{Amount} HP[/blue]."
 }

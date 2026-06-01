@@ -13,6 +13,14 @@ namespace BuffTheSpire.Config
             public static bool TheKinEnabled { get; set; } = true;
             public static bool TheKinBuffLeader { get; set; } = true;
 
+        // ELITES - ACT 2
+        [ConfigSection("EntomancerSection")]
+            public static bool EntomancerEnabled { get; set; } = true;
+            [ConfigSlider(100, 200, 1)]
+            public static int EntomancerHpEasy { get; set; } = 160;
+            [ConfigSlider(100, 200, 1)]
+            public static int EntomancerHpHard { get; set; } = 175;
+
         // BOSSES - ACT 2
         [ConfigSection("KaiserCrabSection")]
             public static bool KaiserCrabEnabled { get; set; } = true;
@@ -58,6 +66,13 @@ namespace BuffTheSpire.Config
 
         [ConfigSection("LostForgottenSection")]
             public static bool LostForgottenEnabled { get; set; } = true;
+
+        [ConfigSection("TurretOperatorSection")]
+            public static bool TurretOperatorEnabled { get; set; } = true;
+            [ConfigSlider(0, 40, 1)]
+            public static int TurretOperatorMechanicAmount { get; set; } = 20;
+            [ConfigSlider(0, 8, 1)]
+            public static int TurretOperatorAdditionalStrengthGain { get; set; } = 1;
 
         // ELITES - ACT 3
         [ConfigSection("SoulNexusSection")]
