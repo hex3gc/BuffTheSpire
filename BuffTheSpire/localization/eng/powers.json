@@ -13,5 +13,9 @@
 
     "BUFFTHESPIRE-QUICKSAND_POWER.title": "Quicksand",
     "BUFFTHESPIRE-QUICKSAND_POWER.description": "For every stack of [gold]Sandpit[/gold] The Insatiable has, take 2 damage at the end of your turn.",
-    "BUFFTHESPIRE-QUICKSAND_POWER.smartDescription": "For every stack of [gold]Sandpit[/gold] The Insatiable has, take {Amount} damage at the end of your turn."
+    "BUFFTHESPIRE-QUICKSAND_POWER.smartDescription": "For every stack of [gold]Sandpit[/gold] The Insatiable has, take {Amount} damage at the end of your turn.",
+
+    "BUFFTHESPIRE-ADAPTIVE_POWER.title": "Adaptive",
+    "BUFFTHESPIRE-ADAPTIVE_POWER.description": "When an attack is played against this enemy, it gains 1 [gold]Vigor[/gold] and 2 [blue]Block[/blue] for each stack of Adaptive.",
+    "BUFFTHESPIRE-ADAPTIVE_POWER.smartDescription": "When an attack is played against this enemy, it gains 1 [gold]Vigor[/gold] and 2 [blue]Block[/blue] for each stack of Adaptive."
 }

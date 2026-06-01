@@ -20,21 +20,10 @@
     "BUFFTHESPIRE-THE_INSATIABLE_QUICKSAND_DAMAGE.title": "Quicksand amount",
     "BUFFTHESPIRE-THE_INSATIABLE_QUICKSAND_BUFF.title": "Quicksand increases every attack cycle",
 
-    "BUFFTHESPIRE-AEONGLASS_SECTION.title": "Act 3 Boss: Aeonglass",
-    "BUFFTHESPIRE-AEONGLASS_ENABLED.title": "Enable changes",
-    "BUFFTHESPIRE-AEONGLASS_MAX_HP_EASY.title": "Max HP",
-    "BUFFTHESPIRE-AEONGLASS_MAX_HP_HARD.title": "Max HP (A8+)",
-
-    "BUFFTHESPIRE-QUEEN_SECTION.title": "Act 3 Boss: Queen",
-    "BUFFTHESPIRE-QUEEN_ENABLED.title": "Enable changes",
-    "BUFFTHESPIRE-QUEEN_CARDS_AFFLICTED.title": "Bound cards per turn",
-    "BUFFTHESPIRE-QUEEN_BURNS_ADD.title": "Burns on beam attack",
-    "BUFFTHESPIRE-QUEEN_BURNS_ADD_COUNT.title": "Burns on beam attack amount",
-    "BUFFTHESPIRE-QUEEN_MORE_BEAMS.title": "Frequent beam attacks",
-
-    "BUFFTHESPIRE-SOUL_NEXUS_SECTION.title": "Act 3 Elite: Soul Nexus",
-    "BUFFTHESPIRE-SOUL_NEXUS_ENABLED.title": "Enable changes",
-    "BUFFTHESPIRE-SOUL_NEXUS_HITS.title": "Hits per turn until Intangible",
+    "BUFFTHESPIRE-AXEBOT_SECTION.title": "Act 3 Enemy: Axebot",
+    "BUFFTHESPIRE-AXEBOT_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-AXEBOT_ADAPTIVE_VIGOR_GAIN.title": "Adaptive vigor gain per stack",
+    "BUFFTHESPIRE-AXEBOT_ADAPTIVE_BLOCK_GAIN.title": "Adaptive block gain per stack",
 
     "BUFFTHESPIRE-SCROLL_SECTION.title": "Act 3 Enemy: Scroll Of Biting",
     "BUFFTHESPIRE-SCROLL_ENABLED.title": "Enable changes",
@@ -49,5 +38,21 @@
     "BUFFTHESPIRE-GLOBEHEAD_POWER_DAMAGE.title": "Damage on power use",
 
     "BUFFTHESPIRE-LOST_FORGOTTEN_SECTION.title": "Enemy: The Lost and The Forgotten",
-    "BUFFTHESPIRE-LOST_FORGOTTEN_ENABLED.title": "Enable changes"
+    "BUFFTHESPIRE-LOST_FORGOTTEN_ENABLED.title": "Enable changes",
+
+    "BUFFTHESPIRE-SOUL_NEXUS_SECTION.title": "Act 3 Elite: Soul Nexus",
+    "BUFFTHESPIRE-SOUL_NEXUS_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-SOUL_NEXUS_HITS.title": "Hits per turn until Intangible",
+
+    "BUFFTHESPIRE-MECHA_KNIGHT_SECTION.title": "Act 3 Elite: Mecha Knight",
+    "BUFFTHESPIRE-MECHA_KNIGHT_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-MECHA_KNIGHT_STRENGTH_BUFF.title": "Extra Strength buff on wind-up",
+    "BUFFTHESPIRE-MECHA_KNIGHT_ARTIFACT_BUFF.title": "Extra Artifact buff on wind-up",
+
+    "BUFFTHESPIRE-QUEEN_SECTION.title": "Act 3 Boss: Queen",
+    "BUFFTHESPIRE-QUEEN_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-QUEEN_CARDS_AFFLICTED.title": "Bound cards per turn",
+    "BUFFTHESPIRE-QUEEN_BURNS_ADD.title": "Burns on beam attack",
+    "BUFFTHESPIRE-QUEEN_BURNS_ADD_COUNT.title": "Burns on beam attack amount",
+    "BUFFTHESPIRE-QUEEN_MORE_BEAMS.title": "Frequent beam attacks"
 }

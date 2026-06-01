@@ -18,10 +18,12 @@
 | **The Insatiable** | <ul><li>The Insatiable's initial move now applies 2 **Quicksand** to all players *(For every stack of Sandpit The Insatiable has, take 2 damage at the end of your turn.)*</li><li>The Insatiable's buffing move now applies 2 **Quicksand** to all players.</li><ul> |
 | **Kaiser Crab** | <ul><li>Crusher now spawns with **Sucker Punch** *(On dealing unblocked attack damage, Adds 3 Dazed to your draw pile. Reduced by 1 this turn whenever this enemy takes damage.)*</li><li>Rocket now spawns with **Searing Blow** *(On dealing unblocked attack damage, Transforms 2 cards from the top of your draw pile into Burns. Reduced by 1 this turn whenever this enemy takes damage.)*</li><ul> |
 | | <p align="center">**ACT 3 - ENEMIES**</p> |
+| **Axebot** | <ul><li>Axebot now spawns with 1 **Adaptive** *(When an attack is played against this enemy, it gains 1 Vigor and 2 Block for each stack of Adaptive.)*</li><li>Axebot's subsequent respawns spawn with 1 additional stack of **Adaptive** each.</li><ul> |
 | **Globehead** | <ul><li>**Galvanic** damage increased *(6 => 12)*</li><ul> |
 | **Scrolls of Biting** | <ul><li>**Paper Cuts** Max HP reduction increased *(2 => 5)*</li><li>Minimum HP increased *(31(32) => 38(40))*</li><li>Maximum HP increased *(38(39) => 44(46))*</li><ul> |
 | **The Lost and The Forgotten** | <ul><li>Restored ascension scaling for Strength/Dexterity debuff</li><ul> |
 | | <p align="center">**ACT 3 - ELITES**</p> |
+| **Mecha Knight** | <ul><li>Wind-up turn buffs for more Strength *(5 => 10)*</li><li>Wind-up turn also buffs for 1 Artifact</li><ul> |
 | **Soul Nexus** | <ul><li>Soul Nexus now spawns with **Ephemeral** *(After taking damage 5 times during your turn, gains 1 Intangible.)*</li><ul> |
 | | <p align="center">**ACT 3 - BOSSES**</p> |
 | **Queen** | <ul><li>When using its multi-attack, Torchhead Amalgam now shuffles 1 Burn into your draw pile.</li><li>After its initial moves, Torchhead Amalgam now uses its multi-attack every other turn.</li><ul> |
@@ -30,6 +32,8 @@
 <details><summary>Click to show</summary>
 <h3>1.0.0</h3>
 <ul><li>Initial release</li></ul>
+<h3>1.0.1</h3>
+<ul><li>Axebot: Now spawns with 1 Adaptive (When an attack is played against this enemy, it gains 1 Vigor and 2 block for each stack of Adaptive.)</li><li>Axebot: Axebot's subsequent respawns spawn with 1 additional stack of Adaptive each.</li><li>Mecha Knight: Wind-up turn buffs for more Strength (5 => 10)</li><li>Mecha Knight: Wind-up turn also buffs for 1 Artifact</li></ul>
 </details>
 
 ### Dependencies

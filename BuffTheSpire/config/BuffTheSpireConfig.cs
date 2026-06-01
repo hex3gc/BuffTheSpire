@@ -30,32 +30,14 @@ namespace BuffTheSpire.Config
             [ConfigSlider(1, 10, 1)]
             public static int TheInsatiableQuicksandDamage { get; set; } = 2;
 
-        // BOSSES - ACT 3
-        /*
-        [ConfigSection("AeonglassSection")]
-            public static bool AeonglassEnabled { get; set; } = true;
-            [ConfigSlider(400, 800, 1, Format = "{0} HP")]
-            public static int AeonglassMaxHpEasy { get; set; } = 582;
-            [ConfigSlider(400, 800, 1, Format = "{0} HP")]
-            public static int AeonglassMaxHpHard { get; set; } = 612;
-        */
-
-        [ConfigSection("QueenSection")]
-            public static bool QueenEnabled { get; set; } = true;
-            [ConfigSlider(1, 10, 1)]
-            public static int QueenCardsAfflicted { get; set; } = 3;
-            public static bool QueenBurnsAdd { get; set; } = true;
-            [ConfigSlider(1, 3, 1)]
-            public static int QueenBurnsAddCount { get; set; } = 1;
-            public static bool QueenMoreBeams { get; set; } = true;
-
-        // ELITES - ACT 3
-        [ConfigSection("SoulNexusSection")]
-            public static bool SoulNexusEnabled { get; set; } = true;
-            [ConfigSlider(1, 10, 1)]
-            public static int SoulNexusHits { get; set; } = 5;
-
         // ENEMIES - ACT 3
+        [ConfigSection("AxebotSection")]
+            public static bool AxebotEnabled { get; set; } = true;
+            [ConfigSlider(1, 12, 1)]
+            public static int AxebotAdaptiveVigorGain { get; set; } = 1;
+            [ConfigSlider(1, 12, 1)]
+            public static int AxebotAdaptiveBlockGain { get; set; } = 2;
+
         [ConfigSection("ScrollSection")]
             public static bool ScrollEnabled { get; set; } = true;
             [ConfigSlider(1, 10, 1, Format = "{0} Max HP")]
@@ -76,5 +58,28 @@ namespace BuffTheSpire.Config
 
         [ConfigSection("LostForgottenSection")]
             public static bool LostForgottenEnabled { get; set; } = true;
+
+        // ELITES - ACT 3
+        [ConfigSection("SoulNexusSection")]
+            public static bool SoulNexusEnabled { get; set; } = true;
+            [ConfigSlider(1, 10, 1)]
+            public static int SoulNexusHits { get; set; } = 5;
+
+        [ConfigSection("MechaKnightSection")]
+            public static bool MechaKnightEnabled { get; set; } = true;
+            [ConfigSlider(0, 30, 1)]
+            public static int MechaknightStrengthBuff { get; set; } = 5;
+            [ConfigSlider(0, 10, 1)]
+            public static int MechaknightArtifactBuff { get; set; } = 1;
+
+        // BOSSES - ACT 3
+        [ConfigSection("QueenSection")]
+            public static bool QueenEnabled { get; set; } = true;
+            [ConfigSlider(1, 10, 1)]
+            public static int QueenCardsAfflicted { get; set; } = 3;
+            public static bool QueenBurnsAdd { get; set; } = true;
+            [ConfigSlider(1, 3, 1)]
+            public static int QueenBurnsAddCount { get; set; } = 1;
+            public static bool QueenMoreBeams { get; set; } = true;
     }
 }

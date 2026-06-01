@@ -26,24 +26,27 @@ using MegaCrit.Sts2.Core.Nodes.Rooms;
 using MegaCrit.Sts2.Core.Nodes.Vfx;
 using MegaCrit.Sts2.GameInfo.Objects;
 using BuffTheSpire.Config;
+using MegaCrit.Sts2.Core.Runs;
+using BuffTheSpire.Powers;
+using Godot;
 
 namespace BuffTheSpire.Patches;
 
-internal static class AeonglassPatch
+/// <summary>
+///     A rare anti-attack enemy to give Axebot a real niche
+///     Also encourages passive damage sources or big attacks
+/// </summary>
+internal static class AxebotPatch
 {
-    /*
-    // HP change
     [HarmonyPatch]
-    internal static class AeonglassPatch_Aeonglass_MinInitialHp
+    internal static class AxebotPatch_Axebot_AfterAddedToRoom
     {
-        [HarmonyPatch(typeof(Aeonglass), "MinInitialHp", MethodType.Getter)]
-        internal static bool Prefix(Aeonglass __instance, ref int __result)
+        [HarmonyPatch(typeof(Axebot), "AfterAddedToRoom")]
+        internal static async void Postfix(Axebot __instance)
         {
-            if (!BuffTheSpireConfig.AeonglassEnabled) { return true; }
+            if (!BuffTheSpireConfig.AxebotEnabled) { return; }
 
-            __result = AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, (int)BuffTheSpireConfig.AeonglassMaxHpHard, (int)BuffTheSpireConfig.AeonglassMaxHpEasy);
-            return false;
+            await PowerCmd.Apply<AdaptivePower>(new ThrowingPlayerChoiceContext(), __instance.Creature, 3 - __instance.StockAmount, __instance.Creature, null);
         }
     }
-    */
 }
