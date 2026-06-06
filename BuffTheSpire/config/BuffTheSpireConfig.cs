@@ -16,9 +16,9 @@ namespace BuffTheSpire.Config
         // ELITES - ACT 2
         [ConfigSection("EntomancerSection")]
             public static bool EntomancerEnabled { get; set; } = true;
-            [ConfigSlider(100, 200, 1)]
+            [ConfigSlider(100, 200, 1, Format = "{0} HP")]
             public static int EntomancerHpEasy { get; set; } = 160;
-            [ConfigSlider(100, 200, 1)]
+            [ConfigSlider(100, 200, 1, Format = "{0} HP")]
             public static int EntomancerHpHard { get; set; } = 175;
 
         // BOSSES - ACT 2
@@ -37,6 +37,14 @@ namespace BuffTheSpire.Config
             public static bool TheInsatiableQuicksandBuff { get; set; } = true;
             [ConfigSlider(1, 10, 1)]
             public static int TheInsatiableQuicksandDamage { get; set; } = 2;
+            [ConfigSlider(1, 20, 1, Format = "{0}x2")]
+            public static int TheInsatiableThrashDamageEasy { get; set; } = 7;
+            [ConfigSlider(1, 20, 1, Format = "{0}x2")]
+            public static int TheInsatiableThrashDamageHard { get; set; } = 8;
+            [ConfigSlider(1, 20, 1)]
+            public static int TheInsatiableBiteDamageEasy { get; set; } = 25;
+            [ConfigSlider(1, 20, 1)]
+            public static int TheInsatiableBiteDamageHard { get; set; } = 28;
 
         // ENEMIES - ACT 3
         [ConfigSection("AxebotSection")]
@@ -45,6 +53,13 @@ namespace BuffTheSpire.Config
             public static int AxebotAdaptiveVigorGain { get; set; } = 1;
             [ConfigSlider(1, 12, 1)]
             public static int AxebotAdaptiveBlockGain { get; set; } = 2;
+
+        [ConfigSection("SlimedBerserkerSection")]
+            public static bool SlimedBerserkerEnabled { get; set; } = true;
+            [ConfigSlider(0, 10, 1)]
+            public static int SlimedBerserkerDiscards { get; set; } = 5;
+            [ConfigSlider(0, 10, 1)]
+            public static int SlimedBerserkerDraws { get; set; } = 5;
 
         [ConfigSection("ScrollSection")]
             public static bool ScrollEnabled { get; set; } = true;
@@ -75,6 +90,10 @@ namespace BuffTheSpire.Config
             public static int TurretOperatorAdditionalStrengthGain { get; set; } = 1;
 
         // ELITES - ACT 3
+        [ConfigSection("KnightTrioSection")]
+            public static bool KnightTrioEnabled { get; set; } = true;
+            public static bool KnightTrioGuard { get; set; } = true;
+
         [ConfigSection("SoulNexusSection")]
             public static bool SoulNexusEnabled { get; set; } = true;
             [ConfigSlider(1, 10, 1)]
@@ -83,9 +102,17 @@ namespace BuffTheSpire.Config
         [ConfigSection("MechaKnightSection")]
             public static bool MechaKnightEnabled { get; set; } = true;
             [ConfigSlider(0, 30, 1)]
+            public static bool MechaKnightOffKilter { get; set; } = true;
+            [ConfigSlider(0, 30, 1)]
             public static int MechaknightStrengthBuff { get; set; } = 5;
-            [ConfigSlider(0, 10, 1)]
-            public static int MechaknightArtifactBuff { get; set; } = 1;
+            [ConfigSlider(0, 120, 1)]
+            public static int MechaknightChargeDamageEasy { get; set; } = 25;
+            [ConfigSlider(0, 120, 1)]
+            public static int MechaknightChargeDamageHard { get; set; } = 35;
+            [ConfigSlider(0, 120, 1)]
+            public static int MechaknightCleaveDamageEasy { get; set; } = 50;
+            [ConfigSlider(0, 120, 1)]
+            public static int MechaknightCleaveDamageHard { get; set; } = 60;
 
         // BOSSES - ACT 3
         [ConfigSection("QueenSection")]

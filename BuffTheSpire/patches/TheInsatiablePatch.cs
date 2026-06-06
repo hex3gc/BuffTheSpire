@@ -69,4 +69,30 @@ internal static class TheInsatiablePatch
             }
         }
     }
+
+    // Damage numbers
+    [HarmonyPatch]
+    internal static class TheInsatiablePatch_TheInsatiable_ThrashDamage
+    {
+        [HarmonyPatch(typeof(TheInsatiable), "ThrashDamage", MethodType.Getter)]
+        internal static bool Prefix(TheInsatiable __instance, ref int __result)
+        {
+            if (!BuffTheSpireConfig.TheInsatiableEnabled) { return true; }
+
+            __result = AscensionHelper.GetValueIfAscension(AscensionLevel.DeadlyEnemies, BuffTheSpireConfig.TheInsatiableThrashDamageHard, BuffTheSpireConfig.TheInsatiableThrashDamageEasy);
+            return false;
+        }
+    }
+    [HarmonyPatch]
+    internal static class TheInsatiablePatch_TheInsatiable_BiteDamage
+    {
+        [HarmonyPatch(typeof(TheInsatiable), "BiteDamage", MethodType.Getter)]
+        internal static bool Prefix(TheInsatiable __instance, ref int __result)
+        {
+            if (!BuffTheSpireConfig.TheInsatiableEnabled) { return true; }
+
+            __result = AscensionHelper.GetValueIfAscension(AscensionLevel.DeadlyEnemies, BuffTheSpireConfig.TheInsatiableBiteDamageHard, BuffTheSpireConfig.TheInsatiableBiteDamageEasy);
+            return false;
+        }
+    }
 }

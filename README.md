@@ -13,22 +13,26 @@
 ### Changes
 | Enemy  | Change |
 | ------------- | ------------- |
+| | <p align="center">**ACT 1 - ELITES**</p> |
+| **Byrdonis** | <ul><li>Restored Byrdonis's pre-patch HP *(91(99)-94(99))*</li><ul> |
 | | <p align="center">**ACT 1 - BOSSES**</p> |
 | **The Kin** | <ul><li>Kin Followers now also buff the Kin Priest's strength.</li><li>Kin Followers buff strength less often, lining up their attack pattern more closely with the Kin Priest's.</li><ul> |
 | **Lagavulin Matriarch** | <ul><li>Removed 3rd attack - Lagavulin Matriarch now debuffs Strength/Dexterity every 3 turns.</li><ul> |
 | | <p align="center">**ACT 2 - ELITES**</p> |
 | **Entomancer** | <ul><li>HP increased *(145(155) => 160(175))*</li><ul> |
 | | <p align="center">**ACT 2 - BOSSES**</p> |
-| **The Insatiable** | <ul><li>The Insatiable's initial move now applies 2 **Quicksand** to all players *(For every stack of Sandpit The Insatiable has, take 2 damage at the end of your turn.)*</li><li>The Insatiable's buffing move now applies 2 **Quicksand** to all players.</li><ul> |
+| **The Insatiable** | <ul><li>The Insatiable's initial move now applies 2 **Quicksand** to all players *(For every stack of Sandpit The Insatiable has, take 1 damage at the end of your turn.)*</li><li>The Insatiable's buffing move now applies 2 **Quicksand** to all players.</li><li>Slightly reduced Thrash attack's base damage *(8(9)x2 => 7(8)x2)*</li><li>Slightly reduced Bite attack's base damage *(28(31) => 25(28))*</li><ul> |
 | **Kaiser Crab** | <ul><li>Crusher now spawns with **Sucker Punch** *(On dealing unblocked attack damage, Adds 3 Dazed to your draw pile. Reduced by 1 this turn whenever this enemy takes damage.)*</li><li>Rocket now spawns with **Searing Blow** *(On dealing unblocked attack damage, Transforms 2 cards from the top of your draw pile into Burns. Reduced by 1 this turn whenever this enemy takes damage.)*</li><ul> |
 | | <p align="center">**ACT 3 - ENEMIES**</p> |
 | **Axebot** | <ul><li>Axebot now spawns with 1 **Adaptive** *(When an attack is played against this enemy, it gains 1 Vigor and 2 Block for each stack of Adaptive.)*</li><li>Axebot's subsequent respawns spawn with 1 additional stack of **Adaptive** each.</li><ul> |
 | **Globehead** | <ul><li>**Galvanic** damage increased *(6 => 12)*</li><ul> |
 | **Scrolls of Biting** | <ul><li>**Paper Cuts** Max HP reduction increased *(2 => 5)*</li><li>Minimum HP increased *(31(32) => 38(40))*</li><li>Maximum HP increased *(38(39) => 44(46))*</li><ul> |
+| **Slimed Berserker** | <ul><li>Now shuffles 5 Slimed into your draw pile, and 5 into your discard pile.</li><ul> |
 | **The Lost and The Forgotten** | <ul><li>Restored ascension scaling for Strength/Dexterity debuff</li><ul> |
 | **Turret Operator and Living Shield** | <ul><li>Turret Operator now spawns with **Mechanic** *(At the end of its turn, Turret Operator heals its Living Shield for 20 HP.)*</li><li>Turret Operator gains more Strength on its buffing turn *(1 => 2)*</li><ul> |
 | | <p align="center">**ACT 3 - ELITES**</p> |
-| **Mecha Knight** | <ul><li>Wind-up turn buffs for more Strength *(5 => 10)*</li><li>Wind-up turn also buffs for 1 Artifact</li><ul> |
+| **Knight Trio** | <ul><li>Flail Knight now spawns with **Guard** *(While Flail Knight is alive, all other enemies take 50% less damage.)*</li><ul> |
+| **Mecha Knight** | <ul><li>Mecha Knight now spawns with **Off Kilter** *(When a card is played, this enemy's next attack has its damage reduced by 1.)*</li><li>Base damage of Charge increased  *(25(30) => 25(35))*</li><li>Base damage of Heavy Cleave increased  *(35(40) => 50(60))*</li><li>Wind-up turn buffs for more Strength *(5 => 10)*</li><ul> |
 | **Soul Nexus** | <ul><li>Soul Nexus now spawns with **Ephemeral** *(After taking damage 5 times during your turn, gains 1 Intangible.)*</li><ul> |
 | | <p align="center">**ACT 3 - BOSSES**</p> |
 | **Queen** | <ul><li>When using its multi-attack, Torchhead Amalgam now shuffles 1 Burn into your draw pile.</li><li>After its initial moves, Torchhead Amalgam now uses its multi-attack every other turn.</li><ul> |
@@ -39,6 +43,8 @@
 <ul><li>Initial release</li></ul>
 <h3>1.1.0</h3>
 <ul><li>Axebot: Now spawns with 1 Adaptive</li><li>Axebot: Axebot's subsequent respawns spawn with 1 additional stack of Adaptive each</li><li>Entomancer: HP increased</li><li>Mecha Knight: Wind-up turn buffs for more Strength (5 => 10)</li><li>Mecha Knight: Wind-up turn also buffs for 1 Artifact</li><li>Turret Operator and Living Shield: Turret Operator now spawns with Mechanic</li><li>Turret Operator and Living Shield: Turret Operator gains more Strength on its buffing turn (1 => 2)</li></ul>
+<h3>1.2.0</h3>
+<ul><li>The Insatiable: Slightly reduced Thrash attack's base damage (8(9)x2 => 7(8)x2)</li><li>The Insatiable: Slightly reduced Bite attack's base damage (28(31) => 25(28))</li><li>Slimed Berserker: Now shuffles 5 Slimed into your draw pile, and 5 into your discard pile.</li><li>Mecha Knight: Mecha Knight now spawns with Off Kilter (When a card is played, this enemy's next attack has its damage reduced by 1.)</li><li>Mecha Knight: Base damage of Charge increased (25(30) => 25(35))</li><li>Mecha Knight: Base damage of Heavy Cleave increased (35(40) => 50(60))</li><li>Mecha Knight: Removed Artifact buff on wind-up</li><li>Knight Trio: Flail Knight now spawns with Guard.</li></ul>
 </details>
 
 ### Dependencies

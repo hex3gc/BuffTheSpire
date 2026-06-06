@@ -24,11 +24,20 @@
     "BUFFTHESPIRE-THE_INSATIABLE_QUICKSAND.title": "Enable Quicksand debuff",
     "BUFFTHESPIRE-THE_INSATIABLE_QUICKSAND_DAMAGE.title": "Quicksand amount",
     "BUFFTHESPIRE-THE_INSATIABLE_QUICKSAND_BUFF.title": "Quicksand increases every attack cycle",
+    "BUFFTHESPIRE-THE_INSATIABLE_THRASH_DAMAGE_EASY.title": "Thrash damage",
+    "BUFFTHESPIRE-THE_INSATIABLE_THRASH_DAMAGE_HARD.title": "Thrash damage (A9+)",
+    "BUFFTHESPIRE-THE_INSATIABLE_BITE_DAMAGE_EASY.title": "Bite damage",
+    "BUFFTHESPIRE-THE_INSATIABLE_BITE_DAMAGE_HARD.title": "Bite damage (A9+)",
 
     "BUFFTHESPIRE-AXEBOT_SECTION.title": "Act 3 Enemy: Axebot",
     "BUFFTHESPIRE-AXEBOT_ENABLED.title": "Enable changes",
     "BUFFTHESPIRE-AXEBOT_ADAPTIVE_VIGOR_GAIN.title": "Adaptive vigor gain per stack",
     "BUFFTHESPIRE-AXEBOT_ADAPTIVE_BLOCK_GAIN.title": "Adaptive block gain per stack",
+
+    "BUFFTHESPIRE-SLIMED_BERSERKER_SECTION.title": "Act 3 Enemy: Slimed Berserker",
+    "BUFFTHESPIRE-SLIMED_BERSERKER_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-SLIMED_BERSERKER_DISCARDS.title": "Slimed added to discard pile",
+    "BUFFTHESPIRE-SLIMED_BERSERKER_DRAWS.title": "Slimed added to draw pile",
 
     "BUFFTHESPIRE-SCROLL_SECTION.title": "Act 3 Enemy: Scroll Of Biting",
     "BUFFTHESPIRE-SCROLL_ENABLED.title": "Enable changes",
@@ -50,14 +59,22 @@
     "BUFFTHESPIRE-TURRET_OPERATOR_MECHANIC_AMOUNT.title": "Living shield healing per turn",
     "BUFFTHESPIRE-TURRET_OPERATOR_ADDITIONAL_STRENGTH_GAIN.title": "Additional strength gain",
 
+    "BUFFTHESPIRE-KNIGHT_TRIO_SECTION.title": "Act 3 Elite: Knight Trio",
+    "BUFFTHESPIRE-KNIGHT_TRIO_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-KNIGHT_TRIO_GUARD.title": "Flail Knight spawns with Guard power",
+
     "BUFFTHESPIRE-SOUL_NEXUS_SECTION.title": "Act 3 Elite: Soul Nexus",
     "BUFFTHESPIRE-SOUL_NEXUS_ENABLED.title": "Enable changes",
     "BUFFTHESPIRE-SOUL_NEXUS_HITS.title": "Hits per turn until Intangible",
 
     "BUFFTHESPIRE-MECHA_KNIGHT_SECTION.title": "Act 3 Elite: Mecha Knight",
     "BUFFTHESPIRE-MECHA_KNIGHT_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-MECHA_KNIGHT_OFF_KILTER.title": "Spawn with Off Kilter",
     "BUFFTHESPIRE-MECHA_KNIGHT_STRENGTH_BUFF.title": "Extra Strength buff on wind-up",
-    "BUFFTHESPIRE-MECHA_KNIGHT_ARTIFACT_BUFF.title": "Extra Artifact buff on wind-up",
+    "BUFFTHESPIRE-MECHA_KNIGHT_CHARGE_DAMAGE_EASY.title": "Enable changes",
+    "BUFFTHESPIRE-MECHA_KNIGHT_CHARGE_DAMAGE_HARD.title": "Enable changes",
+    "BUFFTHESPIRE-MECHA_KNIGHT_CLEAVE_DAMAGE_EASY.title": "Enable changes",
+    "BUFFTHESPIRE-MECHA_KNIGHT_CLEAVE_DAMAGE_HARD.title": "Enable changes",
 
     "BUFFTHESPIRE-QUEEN_SECTION.title": "Act 3 Boss: Queen",
     "BUFFTHESPIRE-QUEEN_ENABLED.title": "Enable changes",

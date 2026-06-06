@@ -21,5 +21,17 @@
 
     "BUFFTHESPIRE-MECHANIC_POWER.title": "Mechanic",
     "BUFFTHESPIRE-MECHANIC_POWER.description": "At the end of its turn, [gold]Turret Operator[/gold] heals its [gold]Living Shield[/gold] for [blue]20 HP[/blue].",
-    "BUFFTHESPIRE-MECHANIC_POWER.smartDescription": "At the end of its turn, [gold]Turret Operator[/gold] heals its [gold]Living Shield[/gold] for [blue]{Amount} HP[/blue]."
+    "BUFFTHESPIRE-MECHANIC_POWER.smartDescription": "At the end of its turn, [gold]Turret Operator[/gold] heals its [gold]Living Shield[/gold] for [blue]{Amount} HP[/blue].",
+
+    "BUFFTHESPIRE-WOBBLE_POWER.title": "Wobble",
+    "BUFFTHESPIRE-WOBBLE_POWER.description": "This enemy's next Attack deals less damage.",
+    "BUFFTHESPIRE-WOBBLE_POWER.smartDescription": "This enemy's next Attack deals less damage.",
+
+    "BUFFTHESPIRE-OFF_KILTER_POWER.title": "Off Kilter",
+    "BUFFTHESPIRE-OFF_KILTER_POWER.description": "When a card is played, this enemy's next attack has its damage reduced by 1.",
+    "BUFFTHESPIRE-OFF_KILTER_POWER.smartDescription": "When a card is played, this enemy's next attack has its damage reduced by 1.",
+
+    "BUFFTHESPIRE-GUARD_POWER.title": "Guard",
+    "BUFFTHESPIRE-GUARD_POWER.description": "Allies receive 50% less damage.",
+    "BUFFTHESPIRE-GUARD_POWER.smartDescription": "Allies receive 50% less damage."
 }
