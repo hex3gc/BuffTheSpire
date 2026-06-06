@@ -5,6 +5,18 @@ namespace BuffTheSpire.Config
     [HoverTipsByDefault]
     internal class BuffTheSpireConfig : SimpleModConfig
     {
+        // ELITES - ACT 1
+        [ConfigSection("ByrdonisSection")]
+            public static bool ByrdonisEnabled { get; set; } = true;
+            [ConfigSlider(60, 120, 1, Format = "{0} HP")]
+            public static int ByrdonisMinMaxHpEasy { get; set; } = 91;
+            [ConfigSlider(60, 120, 1, Format = "{0} HP")]
+            public static int ByrdonisMaxMaxHpEasy { get; set; } = 94;
+            [ConfigSlider(60, 120, 1, Format = "{0} HP")]
+            public static int ByrdonisMinMaxHpHard { get; set; } = 99;
+            [ConfigSlider(60, 120, 1, Format = "{0} HP")]
+            public static int ByrdonisMaxMaxHpHard { get; set; } = 99;
+
         // BOSSES - ACT 1
         [ConfigSection("LagavulinSection")]
             public static bool LagavulinEnabled { get; set; } = true;

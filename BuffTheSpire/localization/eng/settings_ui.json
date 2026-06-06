@@ -1,4 +1,11 @@
 {
+    "BUFFTHESPIRE-BYRDONIS_SECTION.title": "Act 1 Elite: Byrdonis",
+    "BUFFTHESPIRE-BYRDONIS_ENABLED.title": "Enable changes",
+    "BUFFTHESPIRE-BYRDONIS_MIN_MAX_HP_EASY.title": "Minimum max HP",
+    "BUFFTHESPIRE-BYRDONIS_MAX_MAX_HP_EASY.title": "Maximum max HP",
+    "BUFFTHESPIRE-BYRDONIS_MIN_MAX_HP_HARD.title": "Minimum max HP (A8+)",
+    "BUFFTHESPIRE-BYRDONIS_MAX_MAX_HP_HARD.title": "Maximum max HP (A8+)",
+
     "BUFFTHESPIRE-THE_KIN_SECTION.title": "Act 1 Boss: The Kin",
     "BUFFTHESPIRE-THE_KIN_ENABLED.title": "Enable changes",
     "BUFFTHESPIRE-THE_KIN_BUFF_LEADER.title": "Followers also buff leader's strength",

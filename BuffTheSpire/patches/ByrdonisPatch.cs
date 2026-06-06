@@ -33,19 +33,32 @@ using Godot;
 namespace BuffTheSpire.Patches;
 
 /// <summary>
-///     A small HP buff should force you to stick with the Dazed for longer
+///     Bird
 /// </summary>
-internal static class EntomancerPatch
+internal static class ByrdonisPatch
 {
     [HarmonyPatch]
-    internal static class EntomancerPatch_Entomancer_MinInitialHp
+    internal static class ByrdonisPatch_Byrdonis_MinInitialHp
     {
-        [HarmonyPatch(typeof(Entomancer), "MinInitialHp", MethodType.Getter)]
-        internal static bool Prefix(Entomancer __instance, ref int __result)
+        [HarmonyPatch(typeof(Byrdonis), "MinInitialHp", MethodType.Getter)]
+        internal static bool Prefix(Byrdonis __instance, ref int __result)
         {
-            if (!BuffTheSpireConfig.EntomancerEnabled) { return true; }
+            if (!BuffTheSpireConfig.ByrdonisEnabled) { return true; }
 
-            __result = AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, BuffTheSpireConfig.EntomancerHpHard, BuffTheSpireConfig.EntomancerHpEasy);
+            __result = AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, BuffTheSpireConfig.ByrdonisMinMaxHpHard, BuffTheSpireConfig.ByrdonisMinMaxHpEasy);
+            return false;
+        }
+    }
+
+    [HarmonyPatch]
+    internal static class ByrdonisPatch_Byrdonis_MaxInitialHp
+    {
+        [HarmonyPatch(typeof(Byrdonis), "MaxInitialHp", MethodType.Getter)]
+        internal static bool Prefix(Byrdonis __instance, ref int __result)
+        {
+            if (!BuffTheSpireConfig.ByrdonisEnabled) { return true; }
+
+            __result = AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, BuffTheSpireConfig.ByrdonisMaxMaxHpHard, BuffTheSpireConfig.ByrdonisMaxMaxHpEasy);
             return false;
         }
     }
