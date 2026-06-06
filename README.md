@@ -1,12 +1,10 @@
 # BuffTheSpire
 <p align="center">
-<img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/wobble.png?raw=true" width=128>
 <img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/mechanic.png?raw=true" width=128>
 <img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/suckerPunch.png?raw=true" width=128>
 <img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/ephemeral.png?raw=true" width=128>
 <img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/searingBlow.png?raw=true" width=128>
 <img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/adaptive.png?raw=true" width=128>
-<img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/guard.png?raw=true" width=128>
 </p>
 <p align="center">Gives enemies unique buffs to make runs more difficult.</p>
 <p align="center">Fully configurable (Settings > Mod Configuration)</p>
