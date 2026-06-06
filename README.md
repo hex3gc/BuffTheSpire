@@ -1,14 +1,19 @@
 # BuffTheSpire
 <p align="center">
+<img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/wobble.png?raw=true" width=128>
 <img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/mechanic.png?raw=true" width=128>
 <img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/suckerPunch.png?raw=true" width=128>
 <img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/ephemeral.png?raw=true" width=128>
 <img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/searingBlow.png?raw=true" width=128>
 <img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/adaptive.png?raw=true" width=128>
+<img src="https://github.com/hex3gc/BuffTheSpire/blob/main/BuffTheSpire/images/powers/guard.png?raw=true" width=128>
 </p>
 <p align="center">Gives enemies unique buffs to make runs more difficult.</p>
+<p align="center">Fully configurable (Settings > Mod Configuration)</p>
 
 <hr>
+
+**DISCLAIMER:** Slay The Spire 2 is in a **Early Access** and I am making mods for the newest **Beta** patches. This means that balance is not set in stone. This mod doesn't intend to 'fix' the balance of the game, but rather to introduce fun new challenges for skilled players while the game still feels like it's in an 'easy' state. If something doesn't suit your playstyle or idea of balance, **disable or configure it in the in-game configuration menu.**
 
 ### Changes
 | Enemy  | Change |
