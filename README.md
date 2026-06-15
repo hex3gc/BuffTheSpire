@@ -19,7 +19,7 @@
 | | <p align="center">**ACT 1 - ELITES**</p> |
 | **Byrdonis** | <ul><li>Restored Byrdonis's pre-patch HP *(91(99)-94(99))*</li><ul> |
 | | <p align="center">**ACT 1 - BOSSES**</p> |
-| **The Kin** | <ul><li>Kin Followers now also buff the Kin Priest's strength.</li><li>Kin Followers buff strength less often, lining up their attack pattern more closely with the Kin Priest's.</li><ul> |
+| **The Kin** | <ul><li>Kin Followers now also buff the Kin Priest's strength by 1.</li><li>Kin Followers buff strength less often, lining up their attack pattern more closely with the Kin Priest's.</li><ul> |
 | **Lagavulin Matriarch** | <ul><li>Removed 3rd attack - Lagavulin Matriarch now debuffs Strength/Dexterity every 3 turns.</li><ul> |
 | | <p align="center">**ACT 2 - ELITES**</p> |
 | **Entomancer** | <ul><li>HP increased *(145(155) => 160(175))*</li><ul> |
