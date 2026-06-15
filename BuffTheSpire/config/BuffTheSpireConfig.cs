@@ -24,6 +24,8 @@ namespace BuffTheSpire.Config
         [ConfigSection("TheKinSection")]
             public static bool TheKinEnabled { get; set; } = true;
             public static bool TheKinBuffLeader { get; set; } = true;
+            [ConfigSlider(1, 5, 1)]
+            public static int TheKinBuffLeaderStrength { get; set; } = 1;
 
         // ELITES - ACT 2
         [ConfigSection("EntomancerSection")]

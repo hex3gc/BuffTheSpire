@@ -51,7 +51,7 @@ internal static class TheKinPatch
             {
                 if (enemy.Monster is KinPriest)
                 {
-                    await PowerCmd.Apply<StrengthPower>(new ThrowingPlayerChoiceContext(), enemy, __instance.DanceStrength, __instance.Creature, null);
+                    await PowerCmd.Apply<StrengthPower>(new ThrowingPlayerChoiceContext(), enemy, BuffTheSpireConfig.TheKinBuffLeaderStrength, __instance.Creature, null);
                 }
             }
         }

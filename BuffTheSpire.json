@@ -3,10 +3,10 @@
   "name": "BuffTheSpire",
   "author": "hex3",
   "description": "Gives enemies unique buffs to make runs more difficult.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "has_pck": true,
   "has_dll": true,
-  "min_game_version": "0.106.1",
+  "min_game_version": "0.107.0",
   "dependencies": [
     {
       "id": "BaseLib",
