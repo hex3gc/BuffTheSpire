@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bn7hxjegdrvuk"
-path="res://.godot/imported/biting.png-d95868b61ffea5398842f07456c03c27.ctex"
+uid="uid://mwqbmo8yk64h"
+path="res://.godot/imported/showcase0.png-6722e2c915c948a8fc5852713c9526e2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://BuffTheSpire/images/biting.png"
-dest_files=["res://.godot/imported/biting.png-d95868b61ffea5398842f07456c03c27.ctex"]
+source_file="res://BuffTheSpire/images/showcase/showcase0.png"
+dest_files=["res://.godot/imported/showcase0.png-6722e2c915c948a8fc5852713c9526e2.ctex"]
 
 [params]
 

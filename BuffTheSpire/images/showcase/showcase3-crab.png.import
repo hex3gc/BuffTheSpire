@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cijjv61g35yxu"
-path="res://.godot/imported/suckerpunch.png-854f75dc1ac279087d8935f3f900708d.ctex"
+uid="uid://dywvpxcatx5pn"
+path="res://.godot/imported/showcase3-crab.png-4d570af0e350d7831dc5023faf71e5e5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://BuffTheSpire/images/suckerpunch.png"
-dest_files=["res://.godot/imported/suckerpunch.png-854f75dc1ac279087d8935f3f900708d.ctex"]
+source_file="res://BuffTheSpire/images/showcase/showcase3-crab.png"
+dest_files=["res://.godot/imported/showcase3-crab.png-4d570af0e350d7831dc5023faf71e5e5.ctex"]
 
 [params]
 

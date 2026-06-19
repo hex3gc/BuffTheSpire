@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bxppi46f6ddtl"
-path="res://.godot/imported/ephemeral.png-73dde96e4692765a3b599bd519ad0a1a.ctex"
+uid="uid://ex365qmdejog"
+path="res://.godot/imported/showcase2-knights.png-c3bac615d967cc3d7a7fbc8d4d332edf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://BuffTheSpire/images/ephemeral.png"
-dest_files=["res://.godot/imported/ephemeral.png-73dde96e4692765a3b599bd519ad0a1a.ctex"]
+source_file="res://BuffTheSpire/images/showcase/showcase2-knights.png"
+dest_files=["res://.godot/imported/showcase2-knights.png-c3bac615d967cc3d7a7fbc8d4d332edf.ctex"]
 
 [params]
 

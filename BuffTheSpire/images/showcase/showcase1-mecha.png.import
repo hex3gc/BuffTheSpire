@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2l3pntx3ybua"
-path="res://.godot/imported/searingblow.png-a6ef34e1ea629c73811a3b8727616082.ctex"
+uid="uid://wrmhgwuep67d"
+path="res://.godot/imported/showcase1-mecha.png-9bf0b72aa195a4bd5676797f683f2a15.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://BuffTheSpire/images/searingblow.png"
-dest_files=["res://.godot/imported/searingblow.png-a6ef34e1ea629c73811a3b8727616082.ctex"]
+source_file="res://BuffTheSpire/images/showcase/showcase1-mecha.png"
+dest_files=["res://.godot/imported/showcase1-mecha.png-9bf0b72aa195a4bd5676797f683f2a15.ctex"]
 
 [params]
 
